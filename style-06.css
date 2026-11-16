@@ -1,0 +1,74 @@
+
+  /* Palette colors */
+  :root {
+    --color-background: #ffffff;
+    --color-background-rgb: 255 255 255;
+    --color-foreground: #000000;
+    --color-foreground-rgb: 0 0 0;
+    --color-border: #000000;
+    --color-border-rgb: 0 0 0;
+    --palette-lightest: #ffffff;
+    --palette-lightest-rgb: 255 255 255;
+    --palette-darkest: #000000;
+    --palette-darkest-rgb: 0 0 0;
+    
+--opacity-5-15: 0.05; --opacity-10-25: 0.1; --opacity-35-55: 0.35; --opacity-40-60:
+0.4; --opacity-30-60: 0.3; --opacity-60: 0.6;
+
+
+    --color-primary-button-text: rgb(255 255 255 / 1.0);
+    --color-primary-button-background: rgb(0 0 0 / 1.0);
+    --color-primary-button-border: rgb(0 0 0 / 1.0);
+    --color-primary-button-focus-outline: rgb(0 0 0);
+    --color-primary-button-hover-text: rgb(255 255 255 / 1.0);
+    --color-primary-button-hover-background: #262626;
+    --color-primary-button-hover-border: #262626;
+
+    --color-secondary-button-text: rgb(0 0 0 / 1.0);
+    --color-secondary-button-background: rgb(0 0 0 / 0.0);
+    --color-secondary-button-border: rgb(0 0 0 / 1.0);
+    --color-secondary-button-hover-text: rgb(0 0 0 / 1.0);
+    --color-secondary-button-hover-background: rgba(0, 0, 0, 0.15);
+    --color-secondary-button-hover-border: #262626;
+
+    --color-input-background: rgb(255 255 255 / 1.0);
+    --color-input-text: rgb(51 51 51 / 1.0);
+    --color-input-text-rgb: 51 51 51;
+    --color-input-border: rgb(223 223 223 / 1.0);
+
+    --color-variant-background: rgb(255 255 255 / 1.0);
+    --color-variant-border: rgb(223 223 223 / 1.0);
+    --color-variant-text: rgb(0 0 0 / 1.0);
+    --color-variant-text-rgb: 0 0 0;
+    --color-variant-hover-background: #f2f2f2;
+    --color-variant-hover-text: rgb(0 0 0 / 1.0);
+    --color-variant-hover-border: #d2d2d2;
+
+    --color-selected-variant-background: rgb(0 0 0 / 1.0);
+    --color-selected-variant-border: rgb(0 0 0 / 1.0);
+    --color-selected-variant-text: rgb(255 255 255 / 1.0);
+    --color-selected-variant-text-rgb: 255 255 255;
+    --color-selected-variant-hover-background: #262626;
+    --color-selected-variant-hover-text: rgb(255 255 255 / 1.0);
+    --color-selected-variant-hover-border: #262626;
+
+    --input-disabled-background-color: rgb(var(--color-foreground-rgb) / var(--opacity-10));
+    --input-disabled-border-color: rgb(var(--color-foreground-rgb) / var(--opacity-5-15));
+    --input-disabled-text-color: rgb(var(--color-foreground-rgb) / var(--opacity-50));
+    --color-foreground-muted: rgb(var(--color-rgb, var(--color-foreground-rgb)) / var(--opacity-muted-text));
+    --color-foreground-subdued: rgb(var(--color-rgb, var(--color-foreground-rgb)) / var(--opacity-subdued-text));
+    --color-drawer-shadow-rgb: ;
+    --color-popover-shadow-rgb: 0 0 0;
+
+    /* Shadows */
+    
+    
+      --shadow-blur: 20px;
+      --shadow-popover: 0px 4px 20px rgb(var(--color-popover-shadow-rgb) / var(--opacity-15));
+    
+  }
+
+  body {
+    color: var(--color-foreground);
+    background-color: var(--color-background);
+  }

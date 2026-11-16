@@ -1,0 +1,43 @@
+
+    .color-custom-top-sections--30635164238201__header_section,
+    .color-custom-top-sections--30635164238201__header_section .text-block {
+      /* Background */
+      --color-background: #ffffff;
+      --color-background-rgb: 255 255 255;
+
+      /* Opacity values adjusted for background brightness */
+      
+--opacity-5-15: 0.05; --opacity-10-25: 0.1; --opacity-35-55: 0.35; --opacity-40-60:
+0.4; --opacity-30-60: 0.3; --opacity-60: 0.6;
+
+
+      
+        /* Foreground / text — explicit or smart-contrasted */
+        --color: #000000;
+        --color-rgb: 0 0 0;
+        --color-foreground: #000000;
+        --color-foreground-rgb: 0 0 0;
+        --color-foreground-muted: rgb(0 0 0 / var(--opacity-muted-text));
+        --color-foreground-subdued: rgb(0 0 0 / var(--opacity-subdued-text));
+        --color-border: var(--palette-darkest);
+        --color-border-rgb: var(--palette-darkest-rgb);
+      
+    }
+
+    
+      .color-custom-top-sections--30635164238201__header_section {
+        /* Form-related tokens stay on .color-custom only — .text-block is a prose
+           container (text/announcement/inline-text/blog-post-description/
+           collection-link/price/sku) and never holds form inputs. */
+        --input-disabled-background-color: rgb(0 0 0 / var(--opacity-10));
+        --input-disabled-border-color: rgb(0 0 0 / var(--opacity-5));
+        --input-disabled-text-color: rgb(0 0 0 / var(--opacity-50));
+        --checkbox-border: 1px solid rgb(0 0 0 / var(--opacity-35-55));
+      }
+    
+
+    .color-custom-top-sections--30635164238201__header_section {
+      color: var(--color, var(--color-foreground));
+      background-color: var(--color-background);
+    }
+  
